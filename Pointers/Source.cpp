@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 //#define POINTERS_BASICS
@@ -9,10 +9,10 @@ void main()
 	int a = 2;
 	int* pa = &a;
 	cout << a << endl;
-	cout << &a << endl; //âçÿòèå àäðåñà ïðÿìî ïðè âûâîäå
-	cout << pa << endl; //âûâîä àäðåñà ïåðåìåííîé â óêàçàòåëå pa
-	cout << *pa << endl; //ðàçûìåíîâàíèå óêàçàòåëÿ pa è âûâîä íà ýêðàí 
-						 //çíà÷åíèÿ ïî àäðåñó
+	cout << &a << endl; //Ð²Ð·ÑÑ‚Ð¸Ðµ Ð°Ð´Ñ€ÐµÑÐ° Ð¿Ñ€ÑÐ¼Ð¾ Ð¿Ñ€Ð¸ Ð²Ñ‹Ð²Ð¾Ð´Ðµ
+	cout << pa << endl; //Ð²Ñ‹Ð²Ð¾Ð´ Ð°Ð´Ñ€ÐµÑÐ° Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹ Ð² ÑƒÐºÐ°Ð·Ð°Ñ‚ÐµÐ»Ðµ pa
+	cout << *pa << endl; //Ñ€Ð°Ð·Ñ‹Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑƒÐºÐ°Ð·Ð°Ñ‚ÐµÐ»Ñ pa Ð¸ Ð²Ñ‹Ð²Ð¾Ð´ Ð½Ð° ÑÐºÑ€Ð°Ð½ 
+						 //Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ð¿Ð¾ Ð°Ð´Ñ€ÐµÑÑƒ
 #endif //POINTERS_BASICS
 
 	const int n = 5;
